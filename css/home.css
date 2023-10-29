@@ -1,0 +1,201 @@
+header {
+    display: flex;
+    gap: 25px;
+    justify-content: end;
+    margin: 15px 15px;
+    align-items: center;
+}
+
+.header-text {
+    font-size: 0.75rem;
+    color: rgba(95, 99, 104, 255);
+}
+
+.header-text:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+header div:nth-child(3) {
+    font-size: 1.3rem;
+    color: rgba(95, 99, 104, 255);
+}
+
+header div:nth-child(3):hover {
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: rgba(95, 99, 104, 255);
+    background-color: rgba(128, 128, 128, 0.295);
+    border-radius: 50%;
+}
+
+header button {
+    width: 75px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(21, 120, 212);
+    border-radius: 4px;
+    font-size: 0.75rem;
+}
+
+header button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.438);
+    background-color: rgb(40, 139, 231);
+}
+
+#google-logo {
+    width: 270px;
+}
+
+#search-area img {
+    width: 25px;
+    height: 25px;
+}
+
+#search-area img:hover {
+    cursor: pointer;
+}
+
+#search-area {
+    width: 550px;
+    height: 45px;
+    border: 1px solid rgba(189, 182, 182, 0.616);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    gap: 10px;
+}
+
+#search-text {
+    height: 40px;
+    width: 420px;
+    border: none;
+    outline: none;
+}
+
+#search-area:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#search-area:focus-within {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#search-area ion-icon {
+    color: rgba(95, 99, 104, 255);
+}
+
+.buttons {
+    width: 130px;
+    height: 35px;
+    background-color: rgba(248, 249, 250, 255);
+    border: none;
+    margin: 0 10px;
+    color: rgb(82, 79, 79);
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#sa-btm-text {
+    color: rgba(117, 119, 121, 255);
+    font-size: 0.7rem;
+}
+
+#sa-btm-text span:first-child {
+    color: rgba(56, 57, 188, 255);
+    font-family: 'Noto Serif Sinhala', serif;
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+
+#sa-btm-text span:last-child {
+    color: rgba(56, 57, 188, 255);
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
+#sa-btm-text span {
+    margin: 5px;
+}
+
+#sa-btm-text span {
+    margin: 5px;
+}
+
+#sa-btm-text span:hover {
+    cursor: pointer;
+}
+
+footer {
+    position: flex;
+    flex-direction: column;
+    height: 90px;
+    margin-top: 235px;
+    font-size: 0.9rem;
+    color: rgba(117, 119, 121, 255);
+}
+
+#on-footer {
+    padding-left: 30px;
+    height: 45px;
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+#on-footer span {
+    margin-top: 15px;
+}
+
+#bottom {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(221, 211, 211);
+    background-color: #f2f2f2;
+}
+
+#bottom div:first-child {
+    display: flex;
+}
+
+#bottom div:last-child {
+    display: flex;
+}
+
+#bottom #right {
+    align-items: center;
+    gap: 40px;
+}
+
+#bottom #left {
+    align-items: center;
+    gap: 40px;
+}
+
+#bottom #left div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#bottom #right div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
