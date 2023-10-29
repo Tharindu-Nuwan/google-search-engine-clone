@@ -7,7 +7,7 @@ header {
 }
 
 .header-text {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     color: rgba(95, 99, 104, 255);
 }
 
@@ -17,8 +17,9 @@ header {
 }
 
 main {
-    margin-top: 28px;
+    height: calc(100vh - 300px);
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 15px;
@@ -49,7 +50,7 @@ header button {
 
 header button:hover {
     cursor: pointer;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.438);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     background-color: rgb(40, 139, 231);
 }
 
@@ -82,14 +83,15 @@ header button:hover {
     width: 420px;
     border: none;
     outline: none;
+    font-size: 1.2rem;
 }
 
 #search-area:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 #search-area:focus-within {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 #search-area ion-icon {
@@ -109,7 +111,7 @@ header button:hover {
 
 .buttons:hover {
     cursor: pointer;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 #sa-btm-text {
@@ -207,3 +209,12 @@ form {
     align-items: center;
     gap: 30px;
 }
+
+#tag {
+    position: absolute;
+    right: 25px;
+    bottom: 100px;
+    color: rgba(171, 15, 218, 0.295);
+    font-size: 1rem;
+}
+
