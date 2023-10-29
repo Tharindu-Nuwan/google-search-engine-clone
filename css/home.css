@@ -143,9 +143,10 @@ header button:hover {
 }
 
 footer {
-    position: flex;
-    flex-direction: column;
+    position: absolute;
+    width: 100%;
     height: 90px;
+    bottom: 0;
     margin-top: 235px;
     font-size: 0.9rem;
     color: rgba(117, 119, 121, 255);
@@ -198,4 +199,11 @@ footer {
 #bottom #right div:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
